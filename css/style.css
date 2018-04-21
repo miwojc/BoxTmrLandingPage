@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+/* Header/logo Title */
+#title {
+    padding: 0px;
+    text-align: center;
+    background: #62bcfa;
+    color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #bbc4ef;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    color: black;
+}
+
+/* Column container */
+.row {  
+    text-align: center;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Main column */
+.main {
+    background-color: #fccdd3;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #6534ff;
+}
+
+/* Responsive layout - when the screen is less than 500px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+}
+
+.button {
+    background-color: #62bcfa;
+    border: none;
+    color: white;
+    padding: 2px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #6534ff;
+    color: white;
+}
