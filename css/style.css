@@ -12,7 +12,8 @@ body {
 
 /* Header/logo Title */
 #title {
-  padding: 60px;
+  padding-top: 130px;
+  padding-bottom: 50px;
   text-align: center;
   background: #62bcfa;
   color: white;
@@ -20,6 +21,9 @@ body {
 
 /* Style the top navigation bar */
 .navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: #bbc4ef;
@@ -47,7 +51,7 @@ body {
 /* Main column */
 .main {
   background-color: #fccdd3;
-  padding: 20px;
+  padding: 50px;
 }
 
 /* Footer */
