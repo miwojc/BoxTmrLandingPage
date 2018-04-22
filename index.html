@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Boxtmr landing page</title>
-  
+  <title>Boxing Timer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
   
       <link rel="stylesheet" href="css/style.css">
@@ -14,29 +18,19 @@
 
 <body>
 
-  <html>
-<head>
-<title>Boxing Timer</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body>
-
-<!-- Header -->
+  <!-- Header -->
 <header id="header" class="header">
-<!-- Navigation Bar -->
-<nav class="navbar" id="nav-bar">
-  <a href="#header" class="nav-link">Home</a>
-  <a href="#About" class="nav-link">About</a>
-  <a href="#Contact" class="nav-link">Contact</a>
-</nav>  
-<div id="title">  
-  <h1>Boxing timer</h1>
-  <img id="header-img" src="http://images.clipartpanda.com/timer-clipart-9i4bkzRiE.svg" width="200">
-  <p>The first boxing timer supporting <b>ABA</b> rules.</p>
-</div>
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="nav-bar">
+    <a href="#header" class="nav-link">Home</a>
+    <a href="#About" class="nav-link">About</a>
+    <a href="#Contact" class="nav-link">Contact</a>
+  </nav>
+  <div id="title">
+    <h1>Boxing timer</h1>
+    <img id="header-img" src="http://images.clipartpanda.com/timer-clipart-9i4bkzRiE.svg" width="200" alt="timer">
+    <p>The first boxing timer supporting <b>ABA</b> rules.</p>
+  </div>
 </header>
 <!-- The flexible grid (content) -->
 <div class="row">
@@ -44,12 +38,12 @@
     <div id="About">
       <h2>Boxing timer ABBA</h2>
       <h5>Why you need this timer...</h5>
-        <i class="material-icons" style="font-size:96px">timer</i>
+      <i class="material-icons" style="font-size:96px">timer</i>
       <p>Because it's great :)</p>
       <p>We have created this timer as we know how perfect timing is important in boxing.</p>
       <br>
     </div>
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Y-j8-RpIXNs?rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Y-j8-RpIXNs?rel=0" allowfullscreen></iframe><br>
     <div id="Contact">
       <h2>How to contact us</h2>
       <h5>We would love to hear from you!</h5>
@@ -57,7 +51,7 @@
       <p>Send us an email at info@boxtmr.og</p>
       <form id="form" action="https://www.freecodecamp.com/email-submit">
         <label for="email" id="email-label">or let us contact you:</label>
-        <input type="email" id="email" placeholder="Enter your email" size="20" required>
+        <input name="email" type="email" id="email" placeholder="Enter your email" size="20" required>
         <input type="submit" id="submit" class="button" value="Submit">
       </form>
     </div>
@@ -68,9 +62,6 @@
 <div class="footer" id="Footer">
   <h2>2018 <a href="http://www.ananas.tk/" target="_blank">ananas</h2>
 </div>
-
-</body>
-</html>
   <script src='https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js'></script>
 
   
